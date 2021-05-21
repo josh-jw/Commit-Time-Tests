@@ -1,0 +1,57 @@
+site_name: GitCRACK Documentation
+site_url: https://support.gitkraken.com/
+site_description: Here you'll find answers to FAQs, documentation and tutorials. Please contact the friendly GitKraken Customer Success team if you still need help!
+
+nav:
+    - Support Home: index.md
+    - GitKraken Git GUI:
+      - How to Install GitKraken Git GUI: how-to-install.md
+      - Frequently Asked Questions: faq.md
+      - Start Here:
+        - Interface Basics: start-here/interface.md
+        - Profiles: start-here/profiles.md
+        - Fuzzy Finder: start-here/fuzzy-finder.md
+        - Keyboard Shortcuts: start-here/keyboard-shortcuts.md
+        - Preferences: start-here/preferences.md
+        - New to Git: start-here/guide.md
+        - Tips: start-here/tips.md
+ 
+
+theme:
+  name: 'material'
+  custom_dir: overrides
+  markdown_extensions:
+    - meta
+  palette:
+      primary: 'teal'
+      accent: 'teal'
+  favicon: './img/favicon.ico'
+  logo: './img/gitkraken-logo-light-hz.svg'
+  static_templates:
+    - 404.html
+
+extra_css: [styles.css]
+extra_javascript: [main.js]
+google_analytics: ['UA-170982-45', 'support.gitkraken.com']
+
+plugins:
+    - search
+    - redirects:
+        redirect_maps:
+            'glo/start-glo-ing.md' : 'boards/quick-start.md'
+            'glo/board-features.md' : 'boards/board-features.md'
+            'glo/board-visibility.md' : 'boards/board-visibility.md' 
+            'glo/card-features.md' : 'boards/card-features.md'
+            'glo/calendar.md' : 'boards/calendar.md'
+            'timelines/integrations/glo.md' : 'boards/timelines.md'
+            'timelines/integrations/boards.md' : 'boards/timelines.md'
+            'glo/teams.md' : 'boards/teams.md'
+            'glo-release-notes/current.md' : 'boards-release-notes/current.md'
+            'glo/where-to-glo.md' : 'boards/access-boards.md'
+            'glo/keyboard-shortcuts.md' : 'boards/keyboard-shortcuts.md'
+            'glo/integrations/slack.md' : 'boards/integrations/slack.md'
+            'glo/integrations/github-sync.md' : 'boards/integrations/github-sync.md'
+            'glo/integrations/github-actions.md' : 'boards/integrations/github-actions.md'
+            'glo/integrations/github-pr.md' : 'boards/integrations/github-pr.md'
+            'glo/integrations/calendar-feeds.md' : 'boards/integrations/calendar-feeds.md'
+            
