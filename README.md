@@ -49,8 +49,8 @@ Please follow these instructions for your first time test. Don't start until you
 5. Edit lines 45 and 46 of the index.html
 6. Fix typo in line 1 of mkdocs.yml 
 7. Answer prompt on music.md file
-8. Stage changes from index.html, mkdocs.yml, and music.md using `git add` command
-9. Commit changes using `git commit` command. 
+8. Stage changes from index.html, mkdocs.yml, and music.md using Commit Panel
+9. Commit changes with the following mesage and descrition.
           Commit message: "Personalized bio and fixed typo"
           Commit description: "Updated the name and bio in the index.html file, shared a favorite song, and changed GitCrack to GitKraken.
 10. Stop timer and write down duration.
