@@ -19,7 +19,7 @@ Please follow these instructions for your first time test. Don't start until you
 1. Start your timer
 2. Launch the CLI
 3. Use the cd command to change directory to where your repo is located. For example, I used `cd ~/Sites/Commit-Time-Test`
-4. Checkout the `feature` branch
+4. Checkout the `feature-cli` branch
 5. Edit lines 45 and 46 of the index.html
 6. Fix typo in line 1 of mkdocs.yml so it says GitKraken Documentation
 7. Answer prompt on music.md file
@@ -30,13 +30,6 @@ Please follow these instructions for your first time test. Don't start until you
 10. Stop timer and write down duration.
 
 
-PAUSE HERE!!
-
-Do 1 of the following before moving on to Test 2
- - Delete local repo and re-clone
- - Hard reset feature branch in GK to remove commit from Test 1.
-
-
 
 ### Test 2: Make a commit in the GK
 
@@ -45,14 +38,14 @@ Please follow these instructions for your first time test. Don't start until you
 1. Start your timer
 2. Launch GitKraken
 3. Open repo
-4. Checkout the `feature` branch
-5. Edit lines 45 and 46 of the index.html
-6. Fix typo in line 1 of mkdocs.yml 
-7. Answer prompt on music.md file
-8. Stage changes from index.html, mkdocs.yml, and music.md using Commit Panel
+4. Checkout the `feature-GK` branch
+5. Edit line 3 of the reset.css file and change license from none to MIT
+6. Change line 6 of ukdocs.yml from UNIX to index
+7. Answer prompt on movie.md file
+8. Stage changes from reset.css, ukdocs.yml, and movie.md using Commit Panel
 9. Commit changes with the following mesage and descrition.
-          Commit message: "Personalized bio and fixed typo"
-          Commit description: "Updated the name and bio in the index.html file, shared a favorite song, and changed GitCrack to GitKraken.
+          Commit message: "Updated license type and fixed typo"
+          Commit description: "Updated the license type in the reset.css file, shared a favorite movie, and changed UNIX to index.
 10. Stop timer and write down duration.
 
 
