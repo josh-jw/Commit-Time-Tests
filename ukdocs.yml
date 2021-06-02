@@ -3,7 +3,7 @@ site_url: https://support.gitkraken.com/
 site_description: Here you'll find answers to FAQs, documentation and tutorials. Please contact the friendly GitKraken Customer Success team if you still need help!
 
 nav:
-    - Support Home: UNIX.md
+    - Support Home: index.md
     - GitKraken Git GUI:
       - How to Install GitKraken Git GUI: how-to-install.md
       - Frequently Asked Questions: faq.md
